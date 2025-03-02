@@ -36,5 +36,3 @@ Bu proje, mobil cihazlarda popüler, sade, renkli ve kullanıcı dostu bir tasar
 1. Bu projeyi bilgisayarınıza klonlayın veya zip dosyası olarak indirin.
 2. Proje kök dizininde bulunan `index.html` dosyasını tarayıcınızda açın.
 3. Site üzerindeki oyun listesi, haftanın oyunu, anket, detaylar tablosu ve video demo bölümlerini keşfedin.
-
-## Proje Yapısı
