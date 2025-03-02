@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--
+Proje Amacı: En iyi hypercasual oyunları tanıtmak.
+Kullanılan HTML etiketleri: <h1> - <h6>, <p>, <a>, <img>, <ul>, <ol>, <li>, <table>, <tr>, <td>, <th>, <header>, <footer>, <section>, <article>, <nav>, <div>, <span>, <iframe>
+Projenin Genel Özellikleri: Mobil cihazlarda popüler, sade, renkli ve kullanıcı dostu tasarım.
+-->
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>En İyi Hypercasual Oyunlar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin: 10px 0;
+    }
+    .game {
+      border-bottom: 1px solid #ccc;
+      padding: 15px 0;
+    }
+    .game img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #aaa;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    .poll {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #e7f3fe;
+      border: 1px solid #b3d4fc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>En İyi Hypercasual Oyunlar</h1>
+    <nav>
+      <a href="#games">Oyunlar</a>
+      <a href="#haftanin-oyunu">Haftanın Oyunu</a>
+      <a href="#anket">Anket</a>
+      <a href="#ek-bilgiler">Ek Bilgiler</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Oyun Listesi Bölümü -->
+    <section id="games">
+      <h2>En Çok İndirilen Oyunlar</h2>
+      <article class="game">
+        <h3>Helix Jump</h3>
+        <p>Topu dönen platformlarda aşağı indirerek puan kazanmaya çalışıyorsun.</p>
+        <img src="https://play-lh.googleusercontent.com/FJ_eBYG23JkzujCEPHIjUAUJcQOGfZzPxKCGZ9lOmj9aBZABvdftqAAx8MyDbpEXeRzC" alt="Helix Jump Oynanış Görseli">
+      </article>
+      <article class="game">
+        <h3>Crowd City</h3>
+        <p>Şehirde kalabalığını büyüterek diğer oyuncuları ele geçiriyorsun.</p>
+        <img src="https://play-lh.googleusercontent.com/HvcVIhfvIqWsobFVDbz6sxgh0sNXVYKGwjvq5uGiDaCyPi7hOSjqvQaWQbs793HvTyEf" alt="Crowd City Oynanış Görseli">
+      </article>
+      <article class="game">
+        <h3>Rise Up</h3>
+        <p>Balonunu engellerden koruyarak yükselmesini sağlıyorsun.</p>
+        <img src="https://play-lh.googleusercontent.com/_jkLVQ7DHlo6PJv1zvfOdWuavpnuVoCAb4OvPh81l1D9SVRDd1G-Vw3BAyFza-tr_jKF" alt="Rise Up Oynanış Görseli">
+      </article>
+      <article class="game">
+        <h3>Flappy Bird</h3>
+        <p>Kuşu borular arasından geçirerek uçurmaya çalışıyorsun.</p>
+        <img src="https://www.pngall.com/wp-content/uploads/15/Flappy-Bird.png" alt="Flappy Bird Oynanış Görseli">
+      </article>
+      <article class="game">
+        <h3>Aquapark.io</h3>
+        <p>Su kaydırağında rakiplerini geçerek finish çizgisine ulaşıyorsun.</p>
+        <img src="https://play-lh.googleusercontent.com/pNI21ILS4I9IAzveYzjbfk5D5LGuL03b0Ea4OtlFRLD_yk7KYLBeLlBmsvhH7Uj-dQn6" alt="Aquapark.io Oynanış Görseli">
+      </article>
+    </section>
+
+    <!-- Haftanın Oyunu Bölümü -->
+    <section id="haftanin-oyunu">
+      <h2>Haftanın Oyunu</h2>
+      <article>
+        <h3>Öne Çıkan Oyun: Helix Jump</h3>
+        <p>Haftanın oyunu olarak Helix Jump seçildi. Hem eğlenceli hem de bağımlılık yapıcı.</p>
+        <img src="https://beetekno.com/wp-content/uploads/2024/07/haftanin-oyunlari.png" alt="Haftanın Oyunu Görseli">
+      </article>
+    </section>
+
+    <!-- Anket Bölümü -->
+    <section id="anket">
+      <h2>Favori Oyun Anketi</h2>
+      <p>Favori oyununuzu seçin:</p>
+      <form>
+        <ul>
+          <li><input type="radio" name="favGame" value="helix"> Helix Jump</li>
+          <li><input type="radio" name="favGame" value="crowd"> Crowd City</li>
+          <li><input type="radio" name="favGame" value="rise"> Rise Up</li>
+          <li><input type="radio" name="favGame" value="flappy"> Flappy Bird</li>
+          <li><input type="radio" name="favGame" value="aquapark"> Aquapark.io</li>
+        </ul>
+        <button type="submit">Oy Ver</button>
+      </form>
+    </section>
+
+    <!-- Oyun Detayları Tablosu -->
+    <section id="detaylar">
+      <h2>Oyun Detayları</h2>
+      <table>
+        <tr>
+          <th>Oyun Adı</th>
+          <th>Açıklama</th>
+          <th>İndirme Sayısı</th>
+        </tr>
+        <tr>
+          <td>Helix Jump</td>
+          <td>Platformlardan puan kazanma</td>
+          <td>10M+</td>
+        </tr>
+        <tr>
+          <td>Crowd City</td>
+          <td>Kalabalığını büyütme</td>
+          <td>8M+</td>
+        </tr>
+        <tr>
+          <td>Rise Up</td>
+          <td>Engelleri aşarak yükselme</td>
+          <td>5M+</td>
+        </tr>
+        <tr>
+          <td>Flappy Bird</td>
+          <td>Borular arasından geçme</td>
+          <td>50M+</td>
+        </tr>
+        <tr>
+          <td>Aquapark.io</td>
+          <td>Su kaydırağında rakipleri geçme</td>
+          <td>7M+</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Video Demo Bölümü (iframe Kullanımı) -->
+    <section id="iframe-demo">
+      <h2>Video Demo</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/b1lHZFp8mpY" title="Haftanın mobil oyunları - 19 Şubat // Listede 2 Türk oyunu var!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <!-- Ek Bilgiler Bölümü: Ek Başlık Etiketleri Kullanımı -->
+    <section id="ek-bilgiler">
+      <h4>Ek Bilgiler</h4>
+      <p>Bu bölümde oyunlarla ilgili ek bilgiler yer alacaktır.</p>
+      <h5>Önemli Not</h5>
+      <p><span>Oyun Oynamak Güzeldir.</span></p>
+      <h6>Küçük Not</h6>
+      <p>Tabi iyi oynuyorsan</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Hypercasual Oyunlar. Tüm hakları saklıdır.</p>
+    
+  </footer>
+</body>
+</html>
